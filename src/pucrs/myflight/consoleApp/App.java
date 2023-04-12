@@ -1,9 +1,14 @@
 package pucrs.myflight.consoleApp;
+import pucrs.myflight.admin.Admin;
+import pucrs.myflight.modelo.Aeronave;
+
 
 public class App {
 
 	public static void main(String[] args) {
-		System.out.println("\nMyFlight project...");
+	
+	Admin administra = new Admin();
 
+	System.out.println("nidasd");
 	}
 }

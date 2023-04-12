@@ -1,5 +1,4 @@
 package pucrs.myflight.modelo;
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class GerenciadorRotas {

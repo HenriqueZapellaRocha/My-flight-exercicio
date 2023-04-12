@@ -6,7 +6,7 @@ public class GerenciadorAeronaves {
     private ArrayList<Aeronave> aeronaves;
 
     public GerenciadorAeronaves(ArrayList<Aeronave> aeronaves) {
-        aeronaves  = new ArrayList<Aeronave>();
+        this.aeronaves  = new ArrayList<Aeronave>();
     }
 
     public void adicionar(Aeronave aviao) {

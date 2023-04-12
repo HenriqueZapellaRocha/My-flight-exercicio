@@ -8,7 +8,7 @@ public class GerenciadorVoos {
 
     private ArrayList<Voo> voos;
 
-    public GerenciadorVoos(Voo voo) {
+    public GerenciadorVoos(ArrayList<Voo> voo) {
         voos = new ArrayList<Voo>();
     }
 
