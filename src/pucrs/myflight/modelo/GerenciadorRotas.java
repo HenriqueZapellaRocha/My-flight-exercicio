@@ -6,9 +6,9 @@ public class GerenciadorRotas {
 	private ArrayList<Rota> rotas;
 
 	public GerenciadorRotas(ArrayList<Rota> rotas) {
-        rotas = new ArrayList<Rota>();
-    }    
-
+        this.rotas = new ArrayList<Rota>();
+    }
+    
     public void adicionar(Rota rota) {
         rotas.add(rota);
     }
@@ -26,5 +26,9 @@ public class GerenciadorRotas {
             }
         }
         return rotasEncotradas;
+    }
+
+    public ArrayList<Rota> getRotas() {
+        return rotas;
     }
 }
