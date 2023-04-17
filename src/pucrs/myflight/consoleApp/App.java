@@ -20,6 +20,15 @@ public class App {
 	
 	administra.getGerenciaVoos().adicionar(new Voo(Duration.ofMinutes(120), new Rota(new CiaAerea("das", "asdsad"), new Aeroporto("asdasds", "asddsada", new Geo(213, 123210)), new Aeroporto("adasd", "asdsad", new Geo(21312, 123210)), new Aeronave("asdasdas", "sadasd", 200)) ));
 
+	Geo Sbpa = new Geo(-29.9942, -51.1714);
+	Geo Sbgr = new Geo(-23.4322, -46.4692);
+
+	System.out.println(Geo.calculaDistancia(Sbpa, Sbgr));
+
+	
+
+
+
 	System.out.println("nidasd");
 	}
 }
