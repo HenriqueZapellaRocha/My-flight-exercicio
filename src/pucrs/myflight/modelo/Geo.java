@@ -23,4 +23,11 @@ public class Geo {
 	
 			return (2*6371) * Math.asin(Math.sqrt(Math.pow((Math.sin(Math.toRadians((aeroportoUm.getLatitude() - aeroportoDois.getLatitude()) / 2))), 2) + Math.pow((Math.sin(Math.toRadians((aeroportoUm.getLongitude() - aeroportoDois.getLongitude()) / 2))), 2) * (Math.cos(Math.toRadians(aeroportoUm.getLatitude()))) * (Math.cos(Math.toRadians(aeroportoDois.getLatitude()))) ));
 	}
+
+	public double calculaDistancia(Geo aeroporto) {
+
+
+
+		return (2*6371) * Math.asin(Math.sqrt(Math.pow((Math.sin(Math.toRadians((this.latitude - aeroporto.getLatitude()) / 2))), 2) + Math.pow((Math.sin(Math.toRadians((this.longitude - aeroporto.getLongitude()) / 2))), 2) * (Math.cos(Math.toRadians(this.latitude))) * (Math.cos(Math.toRadians(aeroporto.getLatitude()))) ));
+	}
 }

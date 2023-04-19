@@ -23,7 +23,9 @@ public class App {
 	Geo Sbpa = new Geo(-29.9942, -51.1714);
 	Geo Sbgr = new Geo(-23.4322, -46.4692);
 
-	System.out.println(Geo.calculaDistancia(Sbpa, Sbgr));
+	
+
+	System.out.println(Sbpa.calculaDistancia(Sbgr));
 
 	
 
