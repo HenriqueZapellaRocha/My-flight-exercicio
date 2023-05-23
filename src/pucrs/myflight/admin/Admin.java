@@ -9,7 +9,7 @@ import pucrs.myflight.modelo.GerenciadorCias;
 import pucrs.myflight.modelo.GerenciadorRotas;
 import pucrs.myflight.modelo.GerenciadorVoos;
 import pucrs.myflight.modelo.Rota;
-import pucrs.myflight.modelo.Voo;
+
 
 
 public class Admin {
@@ -25,7 +25,6 @@ public class Admin {
         gerenciaAeronaves = new GerenciadorAeronaves(new ArrayList<Aeronave>());
         gerenciaAeroportos = new GerenciadorAeroportos(new ArrayList<Aeroporto>());
         gerenciaCias = new GerenciadorCias(new ArrayList<CiaAerea>());
-        gerenciaVoos = new GerenciadorVoos(new ArrayList<Voo>());
         gerenciaRotas = new GerenciadorRotas(new ArrayList<Rota>());
     }
 
